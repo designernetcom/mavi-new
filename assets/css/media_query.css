@@ -45,10 +45,14 @@
         box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
     }
     
-    .section-three,
-    .section-five,
+    .section-three{
+        padding: 65px 0 50px;
+    }
     .installation-section {
-        padding: 70px 0;
+        padding: 70px 0 70px;
+    }
+    .section-five {
+        padding: 65px 0 70px;
     }
     .section-six,
     #services-page-section {
@@ -61,7 +65,7 @@
     .curved-section {
         padding: 70px 0;
     }
-    .section-eight,
+   
     #services-section-estimate {
         padding-top: 20px;
         padding-bottom: 70px;

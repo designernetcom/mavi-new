@@ -44,6 +44,11 @@ Primary use:
 37.Contact Page CSS
 ------------------------------------------------------------------ */
 /*-----------------------[ 1.Default CSS ]------------------------*/
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -54,6 +59,10 @@ Primary use:
 }
 html {
     scroll-behavior: smooth;
+}
+body{
+    color: #343434;
+    font-family: "Figtree", serif !important;
 }
 h1,
 h2,
@@ -386,10 +395,10 @@ header {
     padding-left: 0;
     position: absolute;
     top: 60px;
-    left: -280px;
-    width: 690px;
+    left: -44px;
+    width: 241px;
     z-index: 5;
-    border-top: 2px solid #F16122;
+    border-top: 2px solid #e20914;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 .menu-ul-list a {
@@ -412,7 +421,7 @@ header {
     width: 250px;
 }
 .menu-ul-list a:hover {
-    background: #ea0a10;
+    background: #00a7b7;
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
@@ -633,7 +642,7 @@ header {
     position: relative;
 }
 .diamond-btn:hover {
-    background: #F16122;
+    background: #ea0a10;
 }
 .diamond-btn img {
     transform: rotate(-45deg);
@@ -676,12 +685,12 @@ header {
 }
 /*-----------------------[ 7.Section Two CSS ]------------------------*/
 .section-two {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 .handyman-text {
-    color: var(--3, #000);
+    color: #2c2c2c;
     font-size: 38px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 44px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -694,7 +703,7 @@ header {
    max-width: 100%;
 }
 .about-sec-img1 {
-    margin-top: 60px;
+    margin-top: 0px;
     margin-bottom: 120px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
 }
@@ -787,16 +796,16 @@ header {
 }
 /*-----------------------[ 8.Section Three CSS ]------------------------*/
 .section-three {
-    background: var(--3, #000);
-    padding: 100px 0;
+    /* background: var(--3, #000); */
+    padding: 80px 0;
 }
 .handyman-services-textMain {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     gap: 30px;
 }
 .handyman-services {
-    color: #FFF;
+    color: #000;
 }
 .malesuada {
     color: var(--8, #A8A9AD);
@@ -1039,7 +1048,7 @@ header {
 .Register-text {
     color: var(--5, #FFF);
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 600;
     line-height: 30px;
     padding-bottom: 10px;
@@ -1050,10 +1059,10 @@ header {
 .proin {
     color: #dbdbdb;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    padding-bottom: 70px;
+    padding-bottom: 45px;
 }
 /*-----------------------[ 11.Section Six CSS ]------------------------*/
 .section-six {
@@ -1171,7 +1180,10 @@ header {
 }
 /*-----------------------[ 13.Section Eight CSS ]------------------------*/
 .section-eight {
-    padding: 100px 0 0;
+    /* padding: 60px 0 90px; */
+}
+.extra-section{
+    padding-bottom: 70px;
 }
 .legal {
     text-align: center;
@@ -2953,7 +2965,7 @@ input:checked+.slid-btn:before {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8901960784);
+    background: rgb(0 0 0 / 75%);
     z-index: 1;
     transition: 0.6s;
     opacity: 0;
@@ -3258,6 +3270,7 @@ textarea::placeholder {
     margin-bottom: 10px;
     font-size: 18px;
     text-align: justify;
+    font-family: "Figtree", serif;
 }
 
 /* service Section */
@@ -3413,4 +3426,35 @@ textarea::placeholder {
 }
 .front-text p{
     font-size: 18px;
+}
+.portfolio-contents {
+    padding: 10px ;
+    text-align: center;
+}
+.portfolio-contents .p-title a {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #181818;
+    padding-bottom: 10px;
+}
+.portfolio-imgs img{
+    width: 100%;
+    padding: 10px;
+}
+.portfolio-contents p a{
+    color: #000;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1240px;
+}
+.highQulity-box-row h6{
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+.highQulity-box-row ul li{
+    list-style-type: disc !important;
+    font-size: 18px;
+    font-family: "Figtree", serif;
+    padding-bottom: 10px;
 }
