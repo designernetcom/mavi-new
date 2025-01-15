@@ -331,7 +331,7 @@ button {
 }
 header {
     background: white;
-    border-bottom: 1px solid #eee;
+    /* border-bottom: 1px solid #eee; */
     position: sticky;
     /* top: -50px; */
     z-index: 500;
@@ -340,7 +340,7 @@ header {
 .header-sub {
     display: flex;
     align-items: center;
-    padding: 10px 12px;
+    padding: 10px 10px;
 }
 .logo {
     display: flex;
@@ -363,7 +363,7 @@ header {
 .menu-list a {
     color: var(--4, #222);
     font-family: Outfit;
-    font-size: 18px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: 22px;
@@ -449,7 +449,7 @@ header {
     cursor: pointer;
 }
 .menu-toggle img {
-    width: 35px;
+    width: 30px;
 }
 .close-menu img {
     width: 33px;
@@ -460,8 +460,8 @@ header {
     display: none;
 }
 .icon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background: rgb(151 238 255);
     display: flex;
@@ -685,7 +685,7 @@ header {
 }
 /*-----------------------[ 7.Section Two CSS ]------------------------*/
 .section-two {
-    padding: 75px 0;
+    padding: 75px 0 150px;
 }
 .handyman-text {
     color: #2c2c2c;
@@ -697,7 +697,7 @@ header {
 }
 .about-sec-img-main {
     position: relative;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 .about-sec-img-main img {
    max-width: 100%;
@@ -731,6 +731,7 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    text-align: justify;
 }
 .highQulity {
     color: var(--3, #000);
@@ -1466,16 +1467,16 @@ header {
 }
 .tips {
     color: var(--3, #000);
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
-    line-height: 36px;
-    padding: 15px 0;
+    line-height: 25px;
+    padding: 15px 0 7px;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     background-repeat: no-repeat;
     transition: 0.5s ease-out;
-    background-image: linear-gradient(to right, #F16122 45%, #000 55%);
+    background-image: linear-gradient(to right, #00a8b5 45%, #000 55%);
     background-size: 220% 100%;
     background-position: 100% 50%;
 }
@@ -1492,7 +1493,7 @@ header {
     -webkit-line-clamp: 2;
 }
 .blog-section-row {
-    margin-top: 60px;
+    margin-top: 45px;
 }
 #no-sidebar-Singleblog {
     justify-content: center;
@@ -1502,12 +1503,12 @@ header {
     padding: 100px 0;
 }
 .installation-img-group {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     position: relative;
 }
 .installation-img-group img {
-    max-width: 100%;
+    width: 100%;
 }
 .installation-img1 {
     position: absolute;
@@ -2738,9 +2739,10 @@ input:checked+.slid-btn:before {
     color: #000;
     width: 100%;
     text-align: center;
+    margin-bottom: 25px;
 }
 .project-page-row {
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 .project-page-col {
     gap: 24px;
@@ -3239,7 +3241,7 @@ textarea::placeholder {
     height: 800px;
 }
 .header-sub .logo img{
-    width: 200px;
+    width: 180px;
 }
 .section-three{
     padding-bottom: 70px;
@@ -3432,15 +3434,15 @@ textarea::placeholder {
     text-align: center;
 }
 .portfolio-contents .p-title a {
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 37px;
+    line-height: 47px;
     font-weight: 600;
-    color: #181818;
+    color: #ffffff;
     padding-bottom: 10px;
 }
 .portfolio-imgs img{
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .portfolio-contents p a{
     color: #000;
@@ -3457,4 +3459,140 @@ textarea::placeholder {
     font-size: 18px;
     font-family: "Figtree", serif;
     padding-bottom: 10px;
+}
+.section-threes .row>*{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.portfolio-items{
+    padding: 80px 80px;
+    margin: 0px auto;
+    background: #000000bf;
+    
+}
+.portfolio-contents{
+    background: #006a7e;
+    padding: 70px 30px;
+}
+.portfolio-contents p a{
+    color: #fff;
+}
+.portfolio-contents .btn{
+    border: 1px solid #fff;
+    font-size: 17px;
+    padding: 5px 20px;
+}
+.portfolio-contents .btn a{
+    font-size: 15px;
+}
+.portfolio-contents .textsd{
+    font-size: 16px;
+    color: #f0f0f0;
+    padding-bottom: 20px;
+}
+.portfolio-contents .Submit{
+    text-align: center;
+}
+.portfolio-contents .p-title{
+   margin-bottom: 10px;
+}
+.portfolio-contents .arrow-section{
+    padding-right: 15px;
+}
+.portfolio-contents .btn-main{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.curved-sections{
+    padding: 60px 0px;
+}
+.section-eights{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background: #006e7e21;
+}
+.blog-box{
+    text-align: center;
+}
+.section-eights .blog-box img{
+    width: 100px;
+}
+.mtop{
+    margin-top: 40px;
+}
+.main-text p{
+    font-size: 19px;
+}
+.section-twos{
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.highQulity-box1{
+    display: flex;
+}
+.qulity-work-grpp i{
+    font-size: 20px;
+    padding-right: 10px;
+    font-weight: 700;
+    color: #e20914;
+    line-height: 50px;
+}
+.highQulity1 {
+    color: #282828;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 10px 0 0px;
+}
+.about-secs{
+    width: 100%;
+    margin-top: 40px;
+}
+.mleft{
+    margin-left: 20px;
+}
+.about-sec-img33 {
+    position: absolute;
+    right: 0;
+    bottom: 44px;
+    border: 10px solid #FFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+}
+.section-two1{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.product-section{
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.pro-text h4{
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 12px;
+    background: #0279a1;
+}
+.pro-main{
+    margin-bottom: 30px;
+}
+.pro-main{
+    border: 1px solid #000;
+}
+.pro-main img{
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.highQulity-box-row{
+    margin-top: 50px;
+}
+.section-sixx{
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+.section-six1{
+    padding-bottom: 70px;
+    padding-top: 20px;
 }
