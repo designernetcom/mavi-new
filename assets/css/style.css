@@ -340,7 +340,7 @@ header {
 .header-sub {
     display: flex;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px 0px;
 }
 .logo {
     display: flex;
@@ -692,7 +692,7 @@ header {
     font-size: 38px;
     font-weight: 600;
     line-height: 44px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 .about-sec-img-main {
@@ -754,6 +754,7 @@ header {
 .btn-main.btn2 {
     max-width: 125px;
     width: 100%;
+    border-radius: 10px;
 }
 .btn2 {
     background: #00719f;
@@ -983,15 +984,16 @@ header {
 }
 /*-----------------------[ 10.Section Five CSS ]------------------------*/
 .section-five {
-    background: #000;
+    background: #e1e1e1;
     padding: 100px 0;
+    margin-top: 40px;
 }
 .ourProcess {
     justify-content: center;
 }
 .quick {
     text-align: center;
-    color: #FFF;
+    color: #131313;
 }
 .elementum {
     text-align: center;
@@ -1009,7 +1011,7 @@ header {
     background: #00719f;
     clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 50% 100%, 0 85%, 0 15%);
     text-align: center;
-    padding: 20px;
+    padding: 20px 25px;
     height: auto;
     transition: 0.60s;
 }
@@ -1049,8 +1051,8 @@ header {
 .Register-text {
     color: var(--5, #FFF);
     text-align: center;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 23px;
+    font-weight: 500;
     line-height: 30px;
     padding-bottom: 10px;
 }
@@ -1517,7 +1519,7 @@ header {
     z-index: 1;
 }
 .installation-img2 {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .yerOfExperi {
     display: flex;
@@ -1632,7 +1634,7 @@ header {
 /*-----------------------[ 18.Footer CSS ]------------------------*/
 footer {
     background: #000;
-    padding: 60px 0;
+    padding: 60px 0 10px;
 }
 .morbi {
     color: #d9d9d9;
@@ -1656,7 +1658,7 @@ footer {
     padding: 7px 0;
 }
 .usefulLinks-List li a {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 24px;
     color: #d9d9d9;
     -webkit-background-clip: text;
@@ -1686,15 +1688,21 @@ footer {
     margin-bottom: 15px;
 }
 .CallUs {
-    color: var(--8, #A8A9AD);
-    font-size: 16px;
-    font-weight: 500;
+    color: #c1c1c1;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.CallUs1 {
+    color: #525252;
+    font-size: 17px;
+    font-weight: 600;
     line-height: 24px;
 }
 .CallUs-phone p,
 .CallUs-phone {
     font-size: 16px;
-    font-weight: 600;
+    /* font-weight: 600; */
     line-height: 24px;
     color: transparent;
     -webkit-background-clip: text;
@@ -1710,8 +1718,14 @@ footer {
     background-position: 0% 50%;
 }
 .copyright-main {
-    padding: 15px 0;
-    background: var(--4, #222);
+    /* padding: 15px 0;
+    background: var(--4, #222); */
+    padding: 20px 0px 10px;
+    
+}
+.footers .row{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #919090;
 }
 .rights-reserved {
     display: flex;
@@ -1785,7 +1799,7 @@ button.bottom-top-button:hover {
     margin-bottom: 50px;
 }
 #about-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/about-page/page-header-img.jpg');
+    background-image: linear-gradient(90deg, rgb(0 0 0 / 71%) 27.86%, rgba(0, 0, 0, 0.00) 100%), url(../images/bread.jpg);
 }
 .page-img-header {
     background-repeat: no-repeat;
@@ -3099,7 +3113,8 @@ input:checked+.slid-btn:before {
 }
 .search-box-main {
     padding: 20px;
-    background: rgba(168, 169, 173, 0.1);
+    background: rgb(189 189 189 / 39%);
+    border-radius: 20px;
 }
 .search-input {
     position: relative;
@@ -3120,16 +3135,17 @@ input:checked+.slid-btn:before {
 }
 .search-input input {
     width: 100%;
-    height: 60px;
+    height: 50px;
     outline: none;
     border: none;
     padding: 18px 15px;
     color: var(--4, #222);
     font-family: Outfit;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    border-radius: 10px;
 }
 #recent-post-box {
     margin-bottom: 20px;
@@ -3188,7 +3204,7 @@ input:checked+.slid-btn:before {
 }
 .contact-deatils-head .CallUs-phone p,
 .contact-deatils-head .CallUs-phone {
-    background-image: linear-gradient(to right, #F16122 45%, #000 55%);
+    background-image: linear-gradient(to right, #F16122 45%, #626262 55%);
 }
 .contact-deatils-head .CallUs-phone:hover p,
 .CallUs-phone:hover {
@@ -3209,7 +3225,7 @@ input:checked+.slid-btn:before {
     gap: 20px;
 }
 #contact-page-form {
-    padding: 30px;
+    padding: 40px;
 }
 #contact-page-form input::placeholder {
     color: #222;
@@ -3219,16 +3235,17 @@ input:checked+.slid-btn:before {
 }
 textarea {
     width: 100%;
-    height: 120px;
+    height: 100px;
     padding: 15px 20px;
     color: var(--4, #222);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     border: none;
     outline: none;
     margin-bottom: 30px;
     resize: none;
+    border-radius: 10px;
 }
 textarea::placeholder {
     color: #222;
@@ -3241,7 +3258,7 @@ textarea::placeholder {
     height: 800px;
 }
 .header-sub .logo img{
-    width: 180px;
+    width: 190px;
 }
 .section-three{
     padding-bottom: 70px;
@@ -3250,7 +3267,7 @@ textarea::placeholder {
     padding: 40px 0px 80px;
 }
 .foot-logo img{
-    width: 150px;
+    width: 190px;
 }
 .headphone-white i{
     color: #fff;
@@ -3448,7 +3465,7 @@ textarea::placeholder {
     color: #000;
 }
 .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1240px;
+    max-width: 1300px;
 }
 .highQulity-box-row h6{
     font-size: 24px;
@@ -3586,7 +3603,7 @@ textarea::placeholder {
     border-bottom: 1px solid #000;
 }
 .highQulity-box-row{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .section-sixx{
     padding-bottom: 0px;
@@ -3595,4 +3612,64 @@ textarea::placeholder {
 .section-six1{
     padding-bottom: 70px;
     padding-top: 20px;
+}
+.header-vrd ul li a{
+    font-size: 18px;
+    padding-right: 20px;
+}
+.pad-top-section {
+    margin-top: 320px;
+}
+.section-ontact{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.contact-deatils-head .headphone-white1 {
+    background: #86e7f7;
+}
+.headphone-white1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0 160 177);
+}
+.contact-deatils-head .headphone-white1 img {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(96%) contrast(100%);
+}
+.serv-main{
+    text-align: center;
+    margin-top: 30px;
+}
+.we-swev h2{
+    text-align: center;
+    font-size: 40px;
+    color: #242424;
+    line-height: 50px;
+    font-weight: 600;
+}
+.serv-main .sub-dataa h4{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.serv-main .sub-dataa p{
+    font-size: 17px;
+}
+.top-class p{
+    font-size: 18px;
+    padding: 10px;
+}
+.serv-main i{
+    font-size: 30px;
+    color: #0279a1;
+}
+.serv-main img{
+    width: 80px;
+    border: 1px solid #8181810d;
+    padding: 15px;
+    background: #ebebeb;
 }
