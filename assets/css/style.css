@@ -3673,3 +3673,37 @@ textarea::placeholder {
     padding: 15px;
     background: #ebebeb;
 }
+.maindata img{
+    width: 100%;
+    border: 1px solid #8181810d;
+}
+.top-title h2{
+    text-align: center;
+    padding: 20px 0px 50px;
+}
+.section-products{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.erow{
+    padding: 30px;
+    border: 1px solid #8181810d;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
+}
+.maindata{
+    padding: 30px;
+    border: 1px solid #a7a7a7;
+    margin-bottom: 20px;
+}
+.pdata{
+    border-top:1px solid #a7a7a7;
+    text-align: center;
+    margin-top: 15px;
+}
+.pdata h4{
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+.pdata h6{
+    padding-bottom: 4px;
+}
