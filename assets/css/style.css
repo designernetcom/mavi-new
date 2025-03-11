@@ -3871,3 +3871,8 @@ textarea::placeholder {
     height: 400px;
     overflow-y: auto;
 } 
+@media (max-width:576px) {
+    .product-img-box img {
+        max-width: 60% !important;
+    }
+}
