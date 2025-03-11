@@ -567,7 +567,7 @@
         padding: 70px 0;
     }
     .img-header-text {
-        font-size: 50px;
+        font-size:  ;
         line-height: 60px;
     }
     .breadcrumb-group {
@@ -880,7 +880,7 @@
         font-size: 45px;
     }
     .img-header-text {
-        font-size: 35px;
+        font-size: 28px;
         line-height: 45px;
     }
     .breadcrumb-group a {
