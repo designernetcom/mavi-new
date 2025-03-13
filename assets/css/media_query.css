@@ -256,11 +256,13 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-        display: none;
+       
+    }
+    .sec-one-row {
+        margin-top: 0px;
     }
     .background-img-slider-SecOne {
         height: 100%;
-        padding: 100px 0 150px;
     }
     .quality-main {
         display: flex;
@@ -398,9 +400,6 @@
     }
     .small-header-media-main {
         gap: 14px;
-    }
-    .background-img-slider-SecOne {
-        padding: 70px 0 110px;
     }
     .Handyman-main-text {
         font-size: 55px;
@@ -567,7 +566,7 @@
         padding: 70px 0;
     }
     .img-header-text {
-        font-size:  ;
+    
         line-height: 60px;
     }
     .breadcrumb-group {
@@ -748,11 +747,9 @@
 }
 @media (max-width: 767px) {
     .small-header-media-main {
-        display: none;
+        display: block;
     }
-    .sec-one-row {
-        display: none;
-    }
+   
 
     .quality {
         font-size: 16px;
@@ -765,6 +762,9 @@
     }
     .sec-one-buttons {
         gap: 60px;
+    }
+    .sec-one-row{
+        padding: 76px 0px 0px 0px;
     }
     .fusce {
         text-align: center;
@@ -1020,11 +1020,13 @@
         gap: 40px;
         flex-direction: column;
     }
-    .background-img-slider-SecOne {
-        padding: 50px 0 110px;
+   
+    .sec-one-row{
+        padding: 20px 0px 23px 0px;
     }
+ 
     .Handyman-main-text {
-        font-size: 40px;
+        font-size: 34px;
         line-height: 50px;
         padding-bottom: 10px;
     }
@@ -1241,15 +1243,28 @@
         line-height: 64px;
     }
 }
+
+@media (max-width: 498px) {
+    .eget{
+        color: black;
+        margin-top: 10px;
+    }
+}
+
+
+
 @media (max-width: 400px) {
     .Handyman-main-text {
-        font-size: 32px;
+        font-size: 30px;
         line-height: 40px;
         padding-bottom: 10px;
         padding-top: 15px;
     }
+    .eget{
+        color: black;
+    }
     .background-img-slider-SecOne {
-        padding: 40px 0 100px;
+        padding: 40px 0 20px;
     }
     .trusted-group {
         gap: 10px;
