@@ -1246,7 +1246,6 @@
 
 @media (max-width: 498px) {
     .eget{
-        color: black;
         margin-top: 10px;
     }
 }
@@ -1265,7 +1264,9 @@
     }
     .background-img-slider-SecOne {
         padding: 40px 0 20px;
+        height: 100%;
     }
+   
     .trusted-group {
         gap: 10px;
         flex-direction: column;
