@@ -385,6 +385,7 @@ header {
     width: auto !important;
     position: relative;
 }
+
 .menu-text:hover {
     filter: brightness(0) saturate(100%) invert(38%) sepia(100%) saturate(1249%) hue-rotate(350deg) brightness(100%) contrast(90%);
 }
@@ -400,6 +401,24 @@ header {
     z-index: 5;
     border-top: 2px solid #e20914;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.wrapper::after{
+   
+    .menu-ul-list {
+        display: block;
+        transition: 0.5s;
+        background: #FFF;
+        padding-left: 0;
+        position: absolute;
+        top: 27px;
+        left: -44px;
+        width: 200px;
+
+        z-index: 5;
+        border-top: 2px solid #e20914;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+        transition-delay: 0.5s;
+    }
 }
 .menu-ul-list a {
     border-bottom: 1px solid #FFF;
@@ -434,12 +453,13 @@ header {
     background: #fffcfb;
     color: #000000;
 }
+.wrapper:hover{
+    
+}
 .wrapper.wrapper-men.active .menu-text {
     /* filter: brightness(0) saturate(100%) invert(40%) sepia(84%) saturate(1312%) hue-rotate(348deg) brightness(98%) contrast(93%); */
 }
-.active-home a {
-    color: #ea0a10;
-}
+
 /*-----------------------[ Mobile Menu CSS ]------------------------*/
 .menu-toggle {
     display: none;
@@ -1802,6 +1822,13 @@ button.bottom-top-button:hover {
 #about-bg {
     background-image: linear-gradient(90deg, rgb(0 0 0 / 71%) 27.86%, rgba(0, 0, 0, 0.00) 100%), url(../images/man-is-working-metal-factory-he-is-welding-piece-rail-using-special-tools.jpg);
 }
+#about-bg-new{
+    background-image: linear-gradient(90deg, rgb(0 0 0 / 71%) 27.86%, rgba(0, 0, 0, 0.00) 100%), url(../images/about-page/abou-bg-banner.webp);
+}
+#contact-bg{
+    background-image: linear-gradient(90deg, rgb(0 0 0 / 71%) 27.86%, rgba(0, 0, 0, 0.00) 100%), url(../images/about-page/contact-us-banner-call-center-260nw-2071411403.webp);
+
+}
 .page-img-header {
     background-repeat: no-repeat;
     background-position: center;
@@ -1809,7 +1836,7 @@ button.bottom-top-button:hover {
     padding: 100px 0;
 }
 .img-header-text {
-    color: var(--5, #FFF);
+    color: #0872a2;
     font-size: 40px;
     font-weight: 700;
     line-height: 72px;
@@ -3852,15 +3879,13 @@ textarea::placeholder {
     font-size: 15px;
     padding: 9px 20px;
     margin-top: 15px;
-    background: rgba(0, 159, 177, 0.344);
+    background: rgba(0, 159, 177, 0.167);
     color: black !important;
-    border-top: 2px solid black;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-
+   
+   
 }
 .products-name-box {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     
 }
 .products-name-box .product:hover{
@@ -4055,4 +4080,23 @@ textarea::placeholder {
 .client-box{
 
 box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.icon-logo img{
+    height: 45px;
+}
+.fix-logos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    position: fixed;
+    top: 350px;
+    right: 5px;
+    
+
+ 
+
+}
+body{
+    position: relative;
 }
