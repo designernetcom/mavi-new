@@ -389,36 +389,37 @@ header {
 .menu-text:hover {
     filter: brightness(0) saturate(100%) invert(38%) sepia(100%) saturate(1249%) hue-rotate(350deg) brightness(100%) contrast(90%);
 }
-.menu-ul-list {
-    display: none;
-    margin-top: -1px;
-    background: #FFF;
-    padding-left: 0;
-    position: absolute;
-    top: 60px;
-    left: -44px;
-    width: 241px;
-    z-index: 5;
-    border-top: 2px solid #e20914;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-}
-.wrapper::after{
-   
+@media (min-width:1199px) {
     .menu-ul-list {
-        display: block;
-        transition: 0.5s;
-        background: #FFF;
-        padding-left: 0;
-        position: absolute;
-        top: 27px;
-        left: -44px;
-        width: 200px;
-
-        z-index: 5;
-        border-top: 2px solid #e20914;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-        transition-delay: 0.5s;
-    }
+        display: none;
+         margin-top: -1px;
+         background: #FFF;
+         padding-left: 0;
+         position: absolute;
+         padding-top: 40px;
+         top: 27px;
+         left: -44px;
+         width: 241px;
+         z-index: 5;
+         opacity: 0;
+         border-bottom: 2px solid #e20914;
+        
+     }
+     .wrapper:hover{
+        
+         .menu-ul-list {
+             display: block;
+             background: #FFF;
+             padding-left: 0;
+             position: absolute;
+             top: 27px;
+             left: -44px;
+             opacity: 1;
+             width: 200px;
+             z-index: 5;   
+         }
+     }
+    
 }
 .menu-ul-list a {
     border-bottom: 1px solid #FFF;
@@ -1186,7 +1187,7 @@ header {
 }
 /*-----------------------[ 12.Section Seven CSS ]------------------------*/
 .section-seven {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/home-page/free-contact-img.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/about-page/cea-arco-tig-x-vision-control-display-1280x720-bg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4100,3 +4101,18 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 body{
     position: relative;
 }
+
+/* .menu-list>li{
+    position: relative;
+}
+.menu-list li .menu-ul-list{
+    opacity: 0;
+   
+    transition: 3s;
+    position: absolute;
+    top: 20px;
+}
+.menu-list>li a:hover .menu-ul-list{
+   opacity: 1;
+  
+} */
